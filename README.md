@@ -2,7 +2,7 @@
 
 This repository contains experiments focused on improving model efficiency for deployment by using Knowledge Distillation and Quantization techniques.
 
-Overview
+## Overview
 
 The project explores how to make deep learning models smaller and faster without losing much accuracy.
 Two main approaches were implemented and tested:
