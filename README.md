@@ -45,7 +45,7 @@ Models saved: resnet18_fp32.pth, resnet18_kd.pth, KD+QAT variants.
 
 ⸻
 
-Part B — Quantization
+**2. Quantization**
 
 1) Which quantization method did not run? Why?
 
