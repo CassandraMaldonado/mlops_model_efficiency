@@ -1,6 +1,6 @@
-**Model Efficiency**
+# Model Efficiency
 
-Part A — Knowledge Distillation
+**1. Knowledge Distillation**
 
 1) Why do you need soft-probabilities (the teacher’s output distribution)?
 
