@@ -8,7 +8,7 @@ The project explores how to make deep learning models smaller and faster without
 
 Two main approaches were implemented and tested:
 
-**1. Knowledge Distillation (KD):** training a smaller student model using the output distribution from a larger, well-trained teacher model.
+**1. Knowledge Distillation (KD):** training a smaller student model using the output distribution from a larger trained teacher model.
 	
 **2. Quantization:** converting floating-point models into lower-precision representations (such as INT8) to reduce memory footprint and inference latency.
 
