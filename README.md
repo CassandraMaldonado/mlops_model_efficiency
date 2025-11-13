@@ -16,7 +16,8 @@ The experiments were conducted on CIFAR-10 using ResNet architectures, implement
 
 **1. Knowledge Distillation**
 
-The goal of this section was to transfer knowledge from a ResNet-50 teacher to a ResNet-18 student.
+The goal was to transfer knowledge from a ResNet-50 teacher to a ResNet-18 student.
+
 	•	The teacher model was first trained on CIFAR-10 to convergence, achieving improved accuracy over baseline runs.
 	•	The student model was then trained using both hard labels and soft probabilities from the teacher model’s logits.
 	•	Distillation training was tested with different temperature values and loss weightings to balance the teacher and student objectives.
