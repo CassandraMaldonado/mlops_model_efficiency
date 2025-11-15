@@ -26,7 +26,8 @@ The goal was to transfer knowledge from a ResNet-50 teacher to a ResNet-18 stude
 
 •	The initial run produced unstable loss values (NaN) which were later fixed by normalizing the temperature scaling and stabilizing the KL divergence computation.
 
-	•	Once stable, the student model achieved nearly the same accuracy as the teacher while being substantially smaller and faster.
+•	Once stable, the student model achieved nearly the same accuracy as the teacher while being substantially smaller and faster.
+
 	•	Latency measurements showed a reduction from approximately 7.5 ms (teacher) to 2.8 ms (student).
 	•	Final models were saved for both teacher and student, including distilled and hybrid variants:
 	•	resnet18_fp32.pth
