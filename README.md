@@ -31,7 +31,6 @@ The goal was to transfer knowledge from a ResNet-50 teacher to a ResNet-18 stude
 •	Latency measurements showed a reduction from approximately 7.5 ms (teacher) to 2.8 ms (student).
 
 •	Final models were saved for both teacher and student, including distilled and hybrid variants:
-
 	•	resnet18_fp32.pth
 	•	resnet18_kd.pth
 	•	resnet18_kd_qat.pth
