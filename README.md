@@ -43,7 +43,8 @@ This section focused on evaluating Post-Training Quantization (PTQ), Dynamic Qua
 
 •	A CPU evaluation function was added since quantized models cannot run on GPU.
 
-	•	The qnnpack and fbgemm backends were tested for compatibility.
+•	The qnnpack and fbgemm backends were tested for compatibility.
+
 	•	Module fusion (Conv + BN + ReLU) was applied to prepare the model for quantization.
 	•	Dynamic Quantization was applied primarily to linear layers, achieving improved efficiency without the static kernel issues.
 	•	Quantization-Aware Training (QAT) was performed for two epochs to finetune fake-quantized weights before conversion.
