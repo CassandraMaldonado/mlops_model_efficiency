@@ -37,8 +37,10 @@ The goal was to transfer knowledge from a ResNet-50 teacher to a ResNet-18 stude
 
 This section focused on evaluating Post-Training Quantization (PTQ), Dynamic Quantization and Quantization-Aware Training (QAT) to further compress and accelerate models.
 
-	•	The Static PTQ attempt failed due to PyTorch backend limitations in the runtime environment, specifically the missing CPU kernel for quantized::conv2d.new.
-	•	Dynamic Quantization and QAT were implemented successfully after adjusting the evaluation flow to use CPU-only inference.
+•	The Static PTQ attempt failed due to PyTorch backend limitations in the runtime environment, specifically the missing CPU kernel for quantized::conv2d.new.
+
+•	Dynamic Quantization and QAT were implemented successfully after adjusting the evaluation flow to use CPU-only inference.
+
 	•	A CPU evaluation function was added since quantized models cannot run on GPU.
 	•	The qnnpack and fbgemm backends were tested for compatibility.
 	•	Module fusion (Conv + BN + ReLU) was applied to prepare the model for quantization.
