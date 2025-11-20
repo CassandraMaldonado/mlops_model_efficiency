@@ -52,6 +52,8 @@ This section focused on evaluating Post-Training Quantization (PTQ), Dynamic Qua
 •	QAT was performed for two epochs to finetune fake-quantized weights before conversion.
 
 •	Models were benchmarked for accuracy, latency and size:
-	•	Quantized models showed significant model size reduction (from ~42 MB to ~10 MB) with minimal accuracy drop.
+
+	•	Quantized models showed significant model size reduction (from 42 MB to 10 MB) with minimal accuracy drop.
+	
 	•	Latency improved further under the quantized configurations.
 
