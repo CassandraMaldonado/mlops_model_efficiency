@@ -55,5 +55,5 @@ This section focused on evaluating Post-Training Quantization (PTQ), Dynamic Qua
 
 	- Quantized models showed significant model size reduction (from 42 MB to 10 MB) with minimal accuracy drop.
 	
-	•Latency improved further under the quantized configurations.
+	- Latency improved further under the quantized configurations.
 
